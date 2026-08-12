@@ -1,4 +1,5 @@
 # rate-limit-redis
+![CI](https://github.com/FerrowAI/rate-limit-redis/actions/workflows/ci.yml/badge.svg)
 
 A distributed sliding-window rate limiter that works over **any** redis
 client. Instead of depending on `ioredis` or `node-redis`, it talks to a
