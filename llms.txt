@@ -1,0 +1,17 @@
+# rate-limit-redis
+> Distributed sliding-window rate limiter over a pluggable minimal eval() client interface — works with any redis client, no dependency required. Ships an atomic Lua script plus an in-memory fallback for tests/dev.
+
+A distributed sliding-window rate limiter that works over **any** redis client. Instead of depending on `ioredis` or `node-redis`, it talks to a minimal `EvalClient` interface — `{ eval(script, keys, args) }` — which
+
+## API
+- `SLIDING_WINDOW_SCRIPT`
+- `InMemoryEvalClient`
+- `EvalClient`
+- `RateLimitOptions`
+- `RateLimitResult`
+- `SlidingWindowRateLimiter`
+
+## Install
+Each library is a standalone GitHub repo under github.com/Ruzylo-cloud.
+
+Part of the Ferrow open-source toolkit: https://github.com/Ruzylo-cloud/ferrow-toolkit — sponsored by https://ferrow.ai
