@@ -1,1 +1,25 @@
-{"name":"rate-limit-redis","version":"1.0.0","main":"dist/index.js","types":"dist/index.d.ts","scripts":{"build":"tsc","test":"jest"},"keywords":["ferrow"],"license":"MIT"}
+{
+  "name": "rate-limit-redis",
+  "version": "2.0.0",
+  "description": "Distributed sliding-window rate limiter over a pluggable minimal eval() client interface — works with any redis client, no dependency required. Ships an atomic Lua script plus an in-memory fallback for tests/dev.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": [
+    "rate-limit",
+    "redis",
+    "sliding-window",
+    "throttle",
+    "typescript",
+    "distributed",
+    "lua"
+  ],
+  "author": "Ruzylo-cloud",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
