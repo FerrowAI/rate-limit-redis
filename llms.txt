@@ -12,6 +12,6 @@ A distributed sliding-window rate limiter that works over **any** redis client. 
 - `SlidingWindowRateLimiter`
 
 ## Install
-Each library is a standalone GitHub repo under github.com/Ruzylo-cloud.
+Each library is a standalone GitHub repo under github.com/FerrowAI.
 
-Part of the Ferrow open-source toolkit: https://github.com/Ruzylo-cloud/ferrow-toolkit — sponsored by https://ferrow.ai
+Part of the Ferrow open-source toolkit: https://github.com/FerrowAI/ferrow-toolkit — sponsored by https://ferrow.ai
