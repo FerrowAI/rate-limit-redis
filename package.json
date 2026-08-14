@@ -1,5 +1,5 @@
 {
-  "name": "rate-limit-redis",
+  "name": "@ferrow/rate-limit-redis",
   "version": "2.0.0",
   "description": "Distributed sliding-window rate limiter over a pluggable minimal eval() client interface — works with any redis client, no dependency required. Ships an atomic Lua script plus an in-memory fallback for tests/dev.",
   "main": "dist/index.js",

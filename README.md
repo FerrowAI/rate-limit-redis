@@ -17,7 +17,7 @@ Ships two things:
 ## Install
 
 ```bash
-npm install rate-limit-redis
+npm install @ferrow/rate-limit-redis
 ```
 
 ## Quickstart
